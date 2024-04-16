@@ -5,3 +5,15 @@ export function GET() {
     message: "hello trello",
   });
 }
+
+export function POST() {
+  return NextResponse.json({
+    message: "hello trello",
+  });
+}
+
+export function PATCH() {
+  return NextResponse.json({
+    message: "hello trello",
+  });
+}
